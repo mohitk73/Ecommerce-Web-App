@@ -1,0 +1,70 @@
+.signup-container{
+    display: flex;
+    margin-top: 50px;
+}
+.signup-image{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.signup-image img{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+}
+.signup-form{
+    margin-top: 60px;
+}
+.signup-form h2{
+   background-color: white;
+   text-align: start;
+   font-size: 40px;
+}
+.signup-form p{
+    color:#a5aeb6;
+}
+.sign{
+    color:  #38CB89;
+}
+.signin{
+    text-decoration:none ;
+    width:400px;
+    padding: 5px 10px;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.signup{
+    text-decoration:none ;
+    width:400px;
+    padding: 5px 10px;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+form{
+    margin-top: 5px;
+    margin: 10px;
+}
+form input{
+    outline: none;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    width: 400px;
+}
+.checkbox{
+    width: 27px;
+}
+
+form .forgot{
+    color: black;
+    margin-top: 10px;
+}

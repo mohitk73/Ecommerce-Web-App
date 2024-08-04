@@ -1,0 +1,122 @@
+.shop-header {
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+    height: 400px;
+  }
+  .shop-header-content{
+    margin-top: 50px;
+  }
+  
+  .shop-header-content h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: grey;
+  }
+  .shop-header-content span{
+   color:black;
+  }
+  
+  .shop-header-content h2 {
+    font-size: 50px;
+    background-color: transparent;
+    margin-bottom: 10px;
+  }
+  
+  .shop-header-content p {
+    font-size: 18px;
+    color: black;
+  }
+  
+  .shop-content {
+    padding: 20px;
+  }
+  
+  .filter-options {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  
+  .filter-options select {
+    padding: 10px;
+    font-size: 16px;
+    margin: 30px;
+  }
+  
+  .product-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: white;
+    position: relative;
+  }
+  
+  .product-image {
+    position: relative;
+    background-position: center;
+  }
+  
+  .product-image img {
+    width: 300px;
+    height: 200px;
+    
+  }
+  
+  .product-label, .product-discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+  }
+  
+  .product-discount {
+    left: auto;
+    right: 10px;
+  }
+  
+  .product-details {
+    text-align: center;
+  }
+  
+  .add-to-cart {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .product-rating {
+    margin-top: 10px;
+    color: #FFD700; 
+  }
+  
+  .product-name {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .product-price {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    margin-top: 5px;
+  }
+  .show{
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: black;
+    border: 1px solid black;
+   margin-left: 45%;
+  }
+  
